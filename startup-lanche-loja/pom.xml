@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.startup.lanche.loja</groupId>
+  <artifactId>startup-lanche-loja</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <properties>
+	   <maven.compiler.source>1.8</maven.compiler.source>
+	   <maven.compiler.target>1.8</maven.compiler.target>
+	   <startup.lanche.commons.version>0.0.1-SNAPSHOT</startup.lanche.commons.version>
+	   <startup.lanche.service.version>0.0.1-SNAPSHOT</startup.lanche.service.version>
+	   <startup.lanche.adapter.services.version>0.0.1-SNAPSHOT</startup.lanche.adapter.services.version>
+	   <startup.lanche.core.application.version>0.0.1-SNAPSHOT</startup.lanche.core.application.version>
+	   <startup.lanche.data.adapter.version>0.0.1-SNAPSHOT</startup.lanche.data.adapter.version>
+	   <startup.lanche.rest.version>0.0.1-SNAPSHOT</startup.lanche.rest.version>
+	   <startup.lanche.loja.front.version>0.0.1-SNAPSHOT</startup.lanche.loja.front.version>
+	   <startup.lanche.commons.version>0.0.1-SNAPSHOT</startup.lanche.commons.version>
+	   <startup.lanche.commons.version>0.0.1-SNAPSHOT</startup.lanche.commons.version>
+	   
+  </properties>	
+  
+  <modules>
+  	<module>startup-lanche-application</module>
+  	<module>startup-lanche-loja-front</module>
+  	<module>build</module>
+  </modules>
+  
+  
+  
+  
+  
+</project>
+

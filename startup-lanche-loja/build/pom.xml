@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>br.com.startup.lanche.loja</groupId>
+    <artifactId>startup-lanche-loja</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>build</artifactId>
+  
+  <dependencies>
+  	  <dependency>
+		    <groupId>br.com.startup.lanche.loja</groupId>
+		  	<artifactId>startup-lanche-commons</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+ 
+ 	  <dependency>
+	      <groupId>br.com.startup.lanche.loja</groupId>
+  		  <version>0.0.1-SNAPSHOT</version>
+		  <artifactId>startup-lanche-service</artifactId>
+  	  </dependency>
+  
+  	  <dependency>	 
+   	      <groupId>br.com.startup.lanche.loja</groupId>
+		  <artifactId>startup-lanche-adapter-services</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+	  </dependency>
+	  
+  	  <dependency>
+		    <groupId>br.com.startup.lanche.loja</groupId>
+	  		<version>0.0.1-SNAPSHOT</version>
+  			<artifactId>startup-lanche-core-application</artifactId>
+	  </dependency>
+	  
+	  <dependency>
+	      <groupId>br.com.startup.lanche.loja</groupId>
+  	      <version>0.0.1-SNAPSHOT</version>
+		  <artifactId>startup-lanche-data-adapter</artifactId>
+  	  </dependency>
+  	  
+  	  <dependency>
+  	  	    <groupId>br.com.startup.lanche.loja</groupId>
+    		<version>0.0.1-SNAPSHOT</version>
+  		    <artifactId>startup-lanche-rest</artifactId>
+  	  </dependency>
+  
+  	  <dependency>
+  	      <groupId>br.com.startup.lanche.loja</groupId>
+		  <version>0.0.1-SNAPSHOT</version>
+  		  <artifactId>startup-lanche-loja-front</artifactId>
+  	  </dependency>
+  </dependencies>
+  
+  
+  <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <configuration>
+        <archive> 
+        
+          <manifest>
+          	<addClasspath>true</addClasspath>
+            <mainClass>br.com.startup.lanche.loja.application.LojaApplication</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+  
+</project>

@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>br.com.startup.lanche.loja</groupId>
+    <artifactId>startup-lanche-loja</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>startup-lanche-application</artifactId>
+  <packaging>pom</packaging>
+  
+  <properties>
+	   <maven.compiler.source>1.8</maven.compiler.source>
+	   <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>		
+  
+  <modules>
+  	<module>startup-lanche-commons</module>
+  	<module>startup-lanche-adapter-services</module>
+  	<module>startup-lanche-service</module>
+  	<module>startup-lanche-data-adapter</module>
+  	<module>startup-lanche-core-application</module>
+  	<module>startup-lanche-rest</module>
+  	
+
+  </modules>
+</project>
